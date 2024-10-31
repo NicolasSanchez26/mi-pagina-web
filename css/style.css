@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*"Inter", sans-serif;*/
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+html{ font-family:"Inter", sans-serif;}
+
+/*header*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 30px;
+    text-decoration: none;
+} 
+.logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*header*/
+
+/*main*/
+.vista-principal{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/img/perro-portada.png);
+    background-position: center;
+    background-size:cover ;
+}
+.vista-principal div h1{
+    color: white;
+}
+.producto-principal{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lo-mas-vendido{
+    display: flex;
+flex-direction:column;
+flex-wrap:wrap;
+justify-content: center;
+margin: 100px;
+}
+.lo-mas-vendido-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.producto-de-venta{ 
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.ofertas{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px;
+}
+.ofertas-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.accesorios{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;  
+}
+.animales-accesorios{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+.animales-accesorios a{
+padding: 40px;
+}
+
+/*main*/
+
+/*footer*/
+ 
+.pie-de-pagina{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #464646; 
+    padding: 20px 10px;   
+}
+.referencias-footer ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+}
+.referencias-footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+.medios-de-pago{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+}
+.medios-de-pago h3{
+    color: white;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/*footer*/
+
